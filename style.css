@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("pexels-jean-van-der-meulen-1457842.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+:root {
+  --text-white-color: #fff;
+}
+nav {
+  display: flex;
+  width: 90%;
+  height: 15vh;
+  margin: 0 auto;
+  padding: 2rem ;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-white-color);
+}
+nav ul {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  border-bottom: 2px solid var(--text-white-color);
+}
+.logoSection h2{
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 3.4rem;
+
+}
+nav ul li {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 6rem;
+}
+.leftBox:hover{
+    box-shadow: 0px 10px -14px 14px #FFF;
+
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+.logoSection h2 {
+  line-height: 1.6rem;
+  font-size: 28px;
+  font-weight: 600;
+}
+.iconSection {
+  display: flex;
+  align-items: center;
+}
+.fa-phone-volume {
+  font-size: 32px;
+  transform: rotate(-45deg);
+  padding: 0 1rem;
+}
+.phoneNumber h2,
+.phoneNumber h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.mainBox {
+  height: 100%;
+}
+.mainContent {
+  padding: 7.5rem 0 9.375rem 6.25rem;
+}
+
+.mainContent h2 {
+  font-size: 3.6rem;
+  width: 50%;
+  color: var(--text-white-color);
+}
+.mainContent button {
+  margin-top: 3.5rem;
+  padding: 1.4rem 2.8rem;
+  background-color: transparent;
+  border: 3px solid var(--text-white-color);
+  color: var(--text-white-color);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+.leftBox,
+.rightBox {
+  padding: 1.563rem;
+  position: absolute;
+  max-width: 18.75rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.leftBox {
+  top: 30%;
+  left: 70%;
+}
+.rightBox {
+  top: 70%;
+  left: 50%;
+}
+.icon {
+  width: 6.25rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1.563rem;
+  margin-bottom: 0.653rem;
+}
+.leftBox p,
+.rightBox p {
+  font-weight: 600;
+  font-size: 1.125;
+  color: var(--text-white-color);
+}
+.fa-puzzle-piece,
+.fa-lightbulb {
+  font-size: 3.125rem;
+  padding: 0.013rem 0;
+}
+
+
+@media (max-width:1340px){
+  .hide{
+    display: none;
+  }
+  html{
+    font-size: 95%;
+  }
+}
+
+@media (max-width:880px){
+
+}
+   @media(max-width:780px){
+    .h22,.btnn{
+        font-size: 12px;
+    }
+    .mainContent{
+        padding: 1rem;
+    }
+    .mainContent h1{
+        font-size: 18px;
+    }
+   }
+   @media (max-width:640px){
+    html{
+        font-size: 70%;
+    }
+    .rightBox{
+      right: 0;
+      top: 35rem;
+    }
+   }
+
+
+   @media (max-width:281px){
+    html{
+        font-size: 50%;
+    }
+}
