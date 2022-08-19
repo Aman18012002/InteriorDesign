@@ -17,47 +17,37 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
-:root {
-  --text-white-color: #fff;
-}
+
 nav {
   display: flex;
   width: 90%;
   height: 15vh;
   margin: 0 auto;
-  padding: 2rem ;
   align-items: center;
   justify-content: space-between;
-  color: var(--text-white-color);
+  color: #fff;
 }
 nav ul {
   padding: 2rem 0;
   display: flex;
   align-items: center;
   list-style-type: none;
-  border-bottom: 2px solid var(--text-white-color);
+  border-bottom: 2px solid #fff;
 }
-.logoSection h2{
-    font-family: 'Rubik Distressed', cursive;
-    font-size: 3.4rem;
 
-}
 nav ul li {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-right: 6rem;
+  margin-right: 4rem;
 }
 .leftBox:hover{
     box-shadow: 0px 10px -14px 14px #FFF;
-
 }
 nav ul li:last-child {
   margin-right: 0;
 }
 .logoSection h2 {
-  line-height: 1.6rem;
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 3.4rem;
 }
 .iconSection {
   display: flex;
@@ -76,6 +66,12 @@ nav ul li:last-child {
 .mainBox {
   height: 100%;
 }
+.leftBox:hover{
+    box-shadow: rgba(224, 223, 223, 0.737) 0px 19px 38px, rgba(139, 139, 139, 0.22) 0px 15px 12px;
+}
+.rightBox:hover{
+    box-shadow: rgba(224, 223, 223, 0.737) 0px 19px 38px, rgba(139, 139, 139, 0.22) 0px 15px 12px;
+}
 .mainContent {
   padding: 7.5rem 0 9.375rem 6.25rem;
 }
@@ -83,14 +79,14 @@ nav ul li:last-child {
 .mainContent h2 {
   font-size: 3.6rem;
   width: 50%;
-  color: var(--text-white-color);
+  color: #fff;
 }
 .mainContent button {
   margin-top: 3.5rem;
   padding: 1.4rem 2.8rem;
   background-color: transparent;
-  border: 3px solid var(--text-white-color);
-  color: var(--text-white-color);
+  border: 3px solid #fff;
+  color: #fff;
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 600;
@@ -123,7 +119,7 @@ nav ul li:last-child {
 .rightBox p {
   font-weight: 600;
   font-size: 1.125;
-  color: var(--text-white-color);
+  color:#fff;
 }
 .fa-puzzle-piece,
 .fa-lightbulb {
@@ -162,6 +158,9 @@ nav ul li:last-child {
     .rightBox{
       right: 0;
       top: 35rem;
+    }
+    .learnmorebtn{
+        margin-top: 3.4rem;
     }
    }
 
